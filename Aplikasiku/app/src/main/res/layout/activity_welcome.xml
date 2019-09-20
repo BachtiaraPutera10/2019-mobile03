@@ -25,7 +25,7 @@
 		android:layout_height="wrap_content"
 		android:textSize="24sp"
 		android:textColor="#313131"
-		android:text="Welcome To DTS VSGA"
+		android:text="Welcome To UNIQLO App"
 		app:layout_constraintTop_toBottomOf="@id/calendar"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
@@ -66,6 +66,7 @@
 		android:text="Login"
 		android:textSize="18sp"
 		android:fontFamily="@font/montserrat_light"
+		android:onClick="clickLogin"
 		/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
